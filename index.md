@@ -1,1 +1,7 @@
-Welcome to my site, this is currently a ## work in progress
+---
+title: Home
+layout: template
+filename: index.md
+--- 
+
+This is a test
