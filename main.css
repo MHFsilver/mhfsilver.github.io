@@ -1,0 +1,12 @@
+html {
+    background-color: #F8F8F8;
+    -webkit-font-smoothing: antialiased;
+}
+body {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    min-width: 800px;
+    line-height: 1.5em;
+    font-family: Fira Sans;
+    color: #545454;
+}
