@@ -6,7 +6,7 @@ html {
 body {
     margin: 0 auto;
     margin-bottom: 30px;
-    min-width: 800px;
+    min-width: 900px;
     line-height: 1.5em;
     font-family: Rockwell;
     color: #545454;
@@ -73,7 +73,7 @@ li {
 .nav {
     display: block;
     color: black;
-    width: 150px;
+    width: 200px;
     padding: 5px;
     background: linear-gradient(#ffffff, #dddddd);
     text-align: center;
