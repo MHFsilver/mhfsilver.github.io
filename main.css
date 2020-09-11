@@ -6,9 +6,9 @@ html {
 body {
     margin: 0 auto;
     margin-bottom: 30px;
-    min-width: 900px;
+    min-width: 800px;
     line-height: 1.5em;
-    font-family: Rockwell;
+    font-family: Fira Sans;
     color: #545454;
 }
 
@@ -73,7 +73,7 @@ li {
 .nav {
     display: block;
     color: black;
-    width: 200px;
+    width: 150px;
     padding: 5px;
     background: linear-gradient(#ffffff, #dddddd);
     text-align: center;
