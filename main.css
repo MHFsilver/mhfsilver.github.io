@@ -181,8 +181,8 @@ li {
 }
 
 .speech-bubble {
-    background-color: #f8f8f8;
-    border: 1px solid #c8c8c8;
+    background-color: #cccccc;
+    border: 1px solid #000000;
     border-radius: 5px;
     width: 110px;
     text-align: center;
