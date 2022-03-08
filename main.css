@@ -151,3 +151,11 @@ li {
     display: block;
   }
 }
+
+.news {
+  border: 3px solid white;
+  position: relative;
+  top: 50px;
+  width: 400px;
+  margin: 0 auto;
+}
