@@ -113,16 +113,6 @@ li {
     display: inline-block;
 }
 
-.speech-bubble {
-    background-color: #cccccc;
-    border: 1px solid #000000;
-    border-radius: 5px;
-    width: 1600x;
-    text-align: center;
-    padding: 20px;
-    position: absolute;
-}
-
 .navbar {
   width: 100%;
   background-color: #ad617d;
@@ -143,19 +133,4 @@ li {
 
 .active {
   background-color: #cccccc;
-}
-
-@media screen and (max-width: 500px) {
-  .navbar a {
-    float: none;
-    display: block;
-  }
-}
-
-.news h1 {
-  border: 3px solid white;
-  position: relative;
-  top: 50px;
-  width: 400px;
-  margin: 0 auto;
 }
