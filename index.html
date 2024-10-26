@@ -1,57 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="main.css">
-<link rel="icon" href="./files/silver.jpg">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MHFsilver</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    background-color: silver;
-  }
-  .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start; /* Align items to the top */
-    align-items: center;
-    height: 100vh;
-  }
-  .social-buttons {
-    display: flex; /* Align buttons horizontally */
-    gap: 20px;
-    margin-top: 20px; /* Add some top margin */
-  }
-  .button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 20px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  .button:hover {
-    background-color: #0056b3;
-  }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MHFsilver</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <p>I'm in the process of redoing the site, ignore how bad it looks at this time. Thank you.</p>
-<div class="container">
-  <div class="social-buttons">
-    <a class="button" href="https://www.youtube.com/@MHFsilver" target="_blank">YouTube</a>
-    <a class="button" href="https://twitter.com/mhfsilver_" target="_blank">Twitter</a>
-    <a class="button" href="https://www.twitch.tv/mhfsilver" target="_blank">Twitch</a>
-    <a class="button" href="https://www.github.com/MHFsilver" target="_blank">Github</a>
-    <a class="button" href="https://www.speedrun.com/user/MHFsilver" target="_blank">Speedruns</a>
-    <a class="button" href="https://bsky.app/profile/mhfsilver.com" target="_blank">Bluesky</a>
-  </div>
-</div>
+    <div class="bubble-container">
+        <a href="https://twitter.com/MHFsilver" class="bubble twitter">Twitter</a>
+        <a href="https://youtube.com/@MHFsilver" class="bubble youtube">YouTube</a>
+        <a href="https://twitch.tvmhfsilver" class="bubble twitch">Twitch</a>
+        <a href="https://bsky.app/mhfsilver.com" class="bubble bluesky">Bluesky</a>
+        <a href="https://github.com/MHFsilver" class="bubble github">GitHub</a>
+        <a href="https://www.speedrun.com/user/MHFsilver" class="bubble speedrun">Speedruns</a>
+    </div>
 </body>
 </html>
