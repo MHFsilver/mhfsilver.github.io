@@ -5,16 +5,7 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #AD617D; 
-    font-family: creamer_sodaregular;
-}
-
-@font-face {
-    font-family: 'creamer_sodaregular';
-    src: url('./files/creamer_soda-webfont.woff2') format('woff2'),
-         url('./files/creamer_soda-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+    font-family: Rockwell;
 }
 
 .bubble-container {
